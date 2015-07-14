@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Button that displays something.
+        </title>
+    </head>
+
+    <body>
+        <div id="grabThis">Grab the text inside here!</div>
+        <input type="button" value="Click me!" onclick="returnDiv()">
+        <script>
+            function returnDiv() {
+                alert(document.getElementById('grabThis').innerHTML);
+            }
+        </script>
+    </body>
+</html>
